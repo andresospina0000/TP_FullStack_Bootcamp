@@ -2,23 +2,23 @@ const mongoose = require('mongoose');
 
 const tvShow = new mongoose.Schema({
     name: {
-        required: true,
+        required: false,
         type: String
     },
     genre: {
-        required: true,
+        required: false,
         type: String
     },
     platform: {
-        required: true,
+        required: false,
         type: String
     },
     length: {
-        required: true,
+        required: false,
         type: Number
     },
     rate: {
-        required: true,
+        required: false,
         type: Number
     },
 })
